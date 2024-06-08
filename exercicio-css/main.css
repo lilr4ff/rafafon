@@ -1,0 +1,111 @@
+/* Estilo geral do corpo */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 1.5em 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin: 1em 0 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo das seções */
+section {
+    margin: 2em 0;
+    padding: 2em;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Cores diferentes para cada seção */
+#sports {
+    border-left: 8px solid #1e90ff;
+}
+
+#economy {
+    border-left: 8px solid #32cd32;
+}
+
+#entertainment {
+    border-left: 8px solid #ff4500;
+}
+
+#technology {
+    border-left: 8px solid #8a2be2;
+}
+
+/* Estilo dos artigos */
+article {
+    display: flex;
+    gap: 1em;
+    margin-bottom: 2em;
+    align-items: center;
+}
+
+article img {
+    width: 150px;
+    height: 100px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+article div {
+    flex: 1;
+}
+
+article header {
+    font-size: 0.9em;
+    color: #555;
+}
+
+article h3 {
+    margin: 0.5em 0;
+    font-size: 1.5em;
+}
+
+article p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+article a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold
+}
